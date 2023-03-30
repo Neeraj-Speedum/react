@@ -1,5 +1,7 @@
 import React from "react";
-import img1 from "N:\react\react1srccomponentsimagesc5.jpeg";
+import c5 from "../images/c5.jpeg";
+import c4 from "../images/c4.jpeg";
+import c6 from "../images/c6.jpg";
 
 export default function Carousel() {
   return (
@@ -19,7 +21,7 @@ export default function Carousel() {
       </ol>
       <div className="carousel-inner w-100">
         <div className="carousel-item  active">
-          <img src={img1} className="d-block w-100" alt="..." />
+          <img src={c5} className="d-block w-100" alt="..." />
           <div className=" carousel-caption tea text1">
             <h2>WE ARE BUILDERS</h2>
             <h1>WE WILL BUILD YOUR DREAM</h1>
@@ -41,14 +43,14 @@ export default function Carousel() {
         </div>
 
         <div className="carousel-item">
-          <img src="./images/c4.jpeg" className="d-block w-100" alt="..." />
+          <img src={c4} className="d-block w-100" alt="..." />
           <div className="carousel-caption">
             <h4>It all starts with a vision, let us help make it a reality</h4>
           </div>
         </div>
 
         <div className="carousel-item">
-          <img src="./images/c6.jpg" className="d-block w-100" alt="..." />
+          <img src={c6} className="d-block w-100" alt="..." />
           <div className="carousel-caption">
             <h5>Connecting Lives with Bridges</h5>
           </div>
