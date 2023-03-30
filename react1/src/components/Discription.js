@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Discreption(props) {
+export default function Discription(props) {
   return (
     <div>
       <div className=" container">
-        <div className="discreption">
+        <div className="discription">
           <div className="title">
             <h3>welcome to</h3>
             <h2>{props.name}</h2>
@@ -64,9 +64,9 @@ export default function Discreption(props) {
     </div>
   );
 }
-Discreption.propTypes = {
+Discription.propTypes = {
   name: PropTypes.string,
 };
-Discreption.defaultProps = {
+Discription.defaultProps = {
   name: "Add name here",
 };
