@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Discription(props) {
+export default function Description(props) {
   return (
     <div>
       <div className=" container">
-        <div className="discription">
+        <div className="description">
           <div className="title">
             <h3>welcome to</h3>
             <h2>{props.name}</h2>
@@ -64,9 +64,13 @@ export default function Discription(props) {
     </div>
   );
 }
-Discription.propTypes = {
+
+
+
+
+Description.propTypes = {
   name: PropTypes.string,
 };
-Discription.defaultProps = {
+Description.defaultProps = {
   name: "Add name here",
 };
