@@ -12,6 +12,7 @@ function App() {
       {/* <Discription name="111"/ > */}
       {/*--->props with proptype*/}
       {/* <Discription/> */} {/*--->props with default value */}
+      
     </>
   );
 }
