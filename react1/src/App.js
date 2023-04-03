@@ -1,8 +1,8 @@
 import "./App.css";
-import About from "./components/About";
-import Carousel from "./components/Carousel";
-import Description from "./components/Description";
-import Navbar from "./components/Navbar";
+import About from "./Components/About";
+import Carousel from "./Components/Carousel";
+import Description from "./Components/Description";
+import Navbar from "./Components/Navbar";
 import {  Routes, Route } from "react-router-dom";
 
 function App() {
