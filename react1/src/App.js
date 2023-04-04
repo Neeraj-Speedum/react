@@ -1,23 +1,20 @@
 import "./App.css";
 import About from "./Components/About";
-import Carousel from "./Components/Carousel";
-import Description from "./Components/Description";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
-import {  Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
-      <Carousel></Carousel>
-      <Description name="elvo Constructions" /> {/*--->props with value */}
-      {/* <Discription name="111"/ > */}
-      {/*--->props with proptype*/}
-      {/* <Discription/> */} {/*--->props with default value */}
-      {/* <Allnavlinks /> */}
-      <Routes>
-        <Route path="/About" element={<About />} />
-      </Routes>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
