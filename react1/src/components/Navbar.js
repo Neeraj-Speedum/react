@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link,} from "react-router-dom";
 
 export default function Navbar() {
   const handleClick = () => {
@@ -30,9 +30,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <NavLink onClick={handleClick} className="nav-link" to="./About">
+              <Link onClick={handleClick} className="nav-link" to="./About">
                 About us
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -45,9 +45,9 @@ export default function Navbar() {
                 Services
               </a>
               <div className="dropdown-menu">
-                <a className="dropdown-item" href="/ ">
+                <Link className="dropdown-item" to="./Product">
                   Reconstruction
-                </a>
+                </Link>
                 <a className="dropdown-item" href="/ ">
                   Construction
                 </a>

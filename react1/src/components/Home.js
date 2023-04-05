@@ -5,6 +5,7 @@ import Description from "./Description";
 export default function Home() {
   return (
     <>
+      
       <Carousel></Carousel>
       <Description name="elvo Constructions" /> {/*--->props with value */}
       {/* <Discription name="111"/ > */}
