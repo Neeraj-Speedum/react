@@ -1,5 +1,5 @@
 import React from "react";
-import { Link,} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const handleClick = () => {
@@ -46,11 +46,11 @@ export default function Navbar() {
               </a>
               <div className="dropdown-menu">
                 <Link className="dropdown-item" to="./Product">
-                  Reconstruction
+                  useEffect page
                 </Link>
-                <a className="dropdown-item" href="/ ">
-                  Construction
-                </a>
+                <Link className="dropdown-item" to="./Render ">
+                  useRef page
+                </Link>
                 <a className="dropdown-item" href="/">
                   Interior
                 </a>

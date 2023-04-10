@@ -1,6 +1,4 @@
 import React from "react";
-// import { FcApproval } from "react-icons/fc";
-// import { FaGithub } from "react-icons/fa";
 
 const detailItem = ({ users }) => {
   return (
@@ -25,13 +23,11 @@ const detailItem = ({ users }) => {
                     </div>
                     <div className="ml-3 w-100">
                       <h4 className="mb-0 mt-0 textLeft">{title} </h4>
-                      {/* <span className="text-left">{type }</span> */}
                       <div className="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
                         <div className="d-flex flex-column">
                           <span className="articles">{description}</span>{" "}
-                          <span className="number1">{price}</span>{" "}
+                          <span className="number1">Price:{price}$</span>{" "}
                         </div>
-                       
                       </div>
                     </div>
                   </div>
